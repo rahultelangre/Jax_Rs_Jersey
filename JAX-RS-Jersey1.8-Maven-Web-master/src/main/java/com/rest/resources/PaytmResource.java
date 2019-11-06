@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 
 @Path("/paytm")
 public class PaytmResource {
-        
+        int x;
 	@GET
 	public String getWalletBalance() {
 		// business logic
